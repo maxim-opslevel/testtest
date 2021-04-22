@@ -12,7 +12,7 @@ service:
   aliases:
   tags:
   repositories:
-  - name: maxim-opslevel/testtest
+  - name: maxim-opslevel/testtests
     path: "/"
     provider: github
   tools:
