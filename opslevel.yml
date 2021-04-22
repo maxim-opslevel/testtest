@@ -1,0 +1,19 @@
+---
+version: 1
+service:
+  name: test-service
+  lifecycle:
+  tier: tier_1
+  product:
+  owner: team_b
+  language: Ruby
+  framework: Rails
+  description: 'test test test '
+  aliases:
+  tags:
+  repositories:
+  - name: maxim-opslevel/testtest
+    path: "/"
+    provider: github
+  tools:
+  dependencies:
