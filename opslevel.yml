@@ -11,8 +11,4 @@ service:
   description:
   aliases:
   tags:
-  repositories:
-  - name: maxim-opslevel/testtest
-    path: "/"
-    provider: github
   tools:
