@@ -1,19 +1,18 @@
 ---
 version: 1
 service:
-  name: test-service
+  name: testtest
   lifecycle:
-  tier: tier_1
+  tier: "tier_1"
   product:
-  owner: team_b
-  language: Ruby
-  framework: Rails
-  description: 'test test test '
+  owner: team_a
+  language:
+  framework:
+  description:
   aliases:
   tags:
   repositories:
-  - name: maxim-opslevel/testtest
+  - name: maxim-opslevel/another-test-repo
     path: "/"
     provider: github
   tools:
-  dependencies:
