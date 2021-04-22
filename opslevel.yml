@@ -1,14 +1,16 @@
 ---
 version: 1
 service:
-  name: testtest
+  name: 'testtest'
   lifecycle:
-  tier: "tier_1"
+  tier:
   product:
-  owner: team_a
+  owner:
   language:
   framework:
   description:
   aliases:
   tags:
+  repositories:
   tools:
+  dependencies:
